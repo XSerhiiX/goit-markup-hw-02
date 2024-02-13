@@ -24,7 +24,11 @@ a {
     color:#2e2f42
 }
 
-.logo:hover, .logo:focus {
+.logo:hover,
+.logo:focus, 
+.logo:hover .logo-web,
+.logo:focus .logo-web
+{
     color: #404bbf;
 }
 
@@ -35,9 +39,9 @@ a {
 
 .link-send {
     font-weight: 500;
-    color: currentColor;
-    
+    color: currentColor;  
 }
+
 
 .link-send:hover, .link-send:focus {
     color: #404bbf;
@@ -176,7 +180,7 @@ button:focus {
     background-color: #2e2f42;;
 }
 
-.footer-spen {
+.footer-span {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -186,9 +190,17 @@ button:focus {
     color: #f4f4fd;
 }
 
+.footer-span:hover,
+.footer-span:focus,
+.footer-span:hover .footer-web,
+.footer-span:focus .footer-web{
+    color: #404bbf;
+}
 .footer-web {
     color: #4d5ae5;
 }
+
+
 
 .footer-text {
     color: #f4f4fd;
