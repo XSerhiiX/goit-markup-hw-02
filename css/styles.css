@@ -21,5 +21,15 @@
 }
 
 .send {
-    
+    font-weight: 500;
+}
+.send-adress {
+    font-weight: 400;
+    color: #434455;
+}
+.title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        color: #fff;
 }
