@@ -18,23 +18,23 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.6667;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#2e2f42
+    color:#4d5ae5
 }
 
 .logo:hover,
 .logo:focus, 
-.logo:hover .logo-web,
-.logo:focus .logo-web
+.logo:hover .logo-studio,
+.logo:focus .logo-studio
 {
     color: #404bbf;
 }
 
-.logo-web {
+.logo-studio {
     
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .link-send {
@@ -45,6 +45,10 @@ a {
 
 .link-send:hover, .link-send:focus {
     color: #404bbf;
+}
+
+address {
+    font-style: normal;
 }
 
 .link-adress {
@@ -72,8 +76,10 @@ a {
 .section-head-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     color: #fff;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 button {
@@ -104,6 +110,7 @@ button:focus {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .quality-team-text {
@@ -116,15 +123,17 @@ button:focus {
 /* #region team */
 
 .team {
-   background: #f4f4fd;
+   background: #ffffff;
 }
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .team-list {
@@ -147,7 +156,8 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+}
 
 /* #endregion */
 
@@ -156,7 +166,10 @@ button:focus {
 .benefits {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .benefits-list {
@@ -187,17 +200,17 @@ button:focus {
     line-height: 1.6667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;;
 }
 
 .footer-span:hover,
 .footer-span:focus,
-.footer-span:hover .footer-web,
-.footer-span:focus .footer-web{
+.footer-span:hover .footer-studio,
+.footer-span:focus .footer-studio{
     color: #404bbf;
 }
-.footer-web {
-    color: #4d5ae5;
+.footer-studio {
+    color: #f4f4fd;
 }
 
 
